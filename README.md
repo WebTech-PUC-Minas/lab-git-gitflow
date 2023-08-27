@@ -19,13 +19,29 @@ Gitflow é um modelo de fluxo de trabalho que busca simplificar e organizar o ve
 **Hotfix:** é uma ramificação utilizada para mesclar correções na ramificação principal decorrente de bugs identificados no processo de desenvolvimento. Após a correção do bug, o código irá tanto para a branch main como para a Develop. Essa branch também recebe uma tag indicando a nova versão na Main.
 
 
-## Criando um repositorio
+## Criando um Repositorio
 
 
 
 ## Clonando um Repositório
 
+O comando git clone é usado para criar uma cópia local de um repositório Git existente.
 
+Encontrar o Repositório: Primeiro, você precisa identificar o URL do repositório Git que deseja clonar.
+
+Executar o Comando Clone: O comando git clone é usado para criar uma cópia local do repositório remoto. A sintaxe básica é a seguinte:
+
+> git clone <URL_do_repositório>
+
+Por exemplo, para clonar um repositório chamado "meu-projeto" do GitHub, você usaria:
+
+> git clone https://github.com/seu-usuario/meu-projeto.git
+
+**Criação da Cópia Local**: O Git irá baixar todos os arquivos e histórico de commits do repositório remoto e criar uma cópia completa na sua máquina local. Agora, você tem todos os arquivos do projeto em seu ambiente.
+
+**Contribuição no Desenvolvimento**: Com o repositório clonado, você pode fazer modificações nos arquivos, criar novos arquivos e adicionar funcionalidades. Quando você faz essas alterações, o Git monitora as diferenças entre a cópia local e o estado anterior. Use os comandos git add, git commit e git push para adicionar, confirmar e enviar suas alterações de volta para o repositório remoto.
+
+**Testes Locais**: Além de contribuir para o desenvolvimento, você também pode usar a cópia local do repositório para realizar testes em um ambiente controlado. Isso é útil para verificar como suas mudanças afetam o projeto antes de compartil
 
 ## Branchs
 
