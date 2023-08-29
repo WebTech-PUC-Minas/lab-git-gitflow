@@ -44,12 +44,21 @@ Por exemplo, para clonar um repositório chamado "meu-projeto" do GitHub, você 
 **Testes Locais**: Além de contribuir para o desenvolvimento, você também pode usar a cópia local do repositório para realizar testes em um ambiente controlado. Isso é útil para verificar como suas mudanças afetam o projeto antes de compartil
 
 ## Branchs
+Um branch de desenvolvimento representa uma ramificação no estado do código que abre um novo caminho para sua evolução. Isso pode ocorrer de forma simultânea com outras ramificações do Git que você pode criar. Isso oferece a capacidade de introduzir novas funcionalidades em nosso código de maneira organizada e precisa.
+
+O uso de Git Branches apresenta várias vantagens, das quais queremos destacar duas em particular:
+
+Permite o desenvolvimento de novos recursos para nossa aplicação sem interromper o progresso no branch principal.
+Com Git Branches, é possível criar diferentes ramificações de desenvolvimento que podem posteriormente ser incorporadas ao mesmo repositório, como um branch estável, um de teste e um instável, por exemplo.
 
 ![branch-feature](./img/image.png)
 
-
 ## Commits
+Representa uma unidade de alterações feitas em um conjunto de arquivos em um repositório de código-fonte. Quando você faz um commit, está registrando uma captura instantânea (snapshot) do estado atual dos arquivos que deseja acompanhar no repositório.
+Os Commits são usados para rastrear e documentar o histórico de um projeto de software. Eles permitem que você acompanhe quem fez quais alterações, quando essas alterações foram feitas e qual foi o propósito por trás delas. Além disso, os commits são a base para a criação de "branches" (ramificações) e "merges" (fusões) no Git, permitindo o desenvolvimento colaborativo e o gerenciamento de versões de código de forma eficiente.
 
+## Merge
+O objetivo principal do merge é unir o trabalho feito em diferentes ramos, permitindo que as alterações feitas em um ramo sejam incorporadas ao histórico de outro.
 
 
 ## Comandos Básicos
