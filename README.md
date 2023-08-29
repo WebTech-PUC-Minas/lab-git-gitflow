@@ -55,22 +55,22 @@ Por exemplo, para clonar um repositório chamado "meu-projeto" do GitHub, você 
 ## Comandos Básicos
 
 ### Git init
-inicializa um repositório Git dentro de um diretório do sistema.
+Inicializa um repositório Git dentro de um diretório do sistema.
 
 > git init
 
 ### Git clone
-cria uma cópia de um repositório remoto em um diretório da máquina.
+Cria uma cópia de um repositório remoto em um diretório da máquina.
 
 > git clone *(https://github.com/(userGitHub)/(repositoryName).git)*
 
 ### Git status
-verifica o status do git atualmente. Esse comando mostra se o projeto local está sincronizado com o master, quais arquivos estão sendo monitorados pelo Git e em qual branch você está. 
+Verifica o status do git atualmente. Esse comando mostra se o projeto local está sincronizado com o master, quais arquivos estão sendo monitorados pelo Git e em qual branch você está. 
 
 > git status
 
 ### Git add
-adiciona arquivos ao pacote de alterações para serem feitas. É possível adicionar um arquivo ou múltiplos arquivos por vez.
+Adiciona arquivos ao pacote de alterações para serem feitas. É possível adicionar um arquivo ou múltiplos arquivos por vez.
 
 > git add <-arquivo1->
 
@@ -81,12 +81,12 @@ adiciona arquivos ao pacote de alterações para serem feitas. É possível adic
 **Observação:** Adiciona todos os arquivos modificados ao pacote.
 
 ### Git commit
-etapa crucial para registrar uma nova versão do projeto, composta por um conjunto de alterações. Ele pega as modificações que foram adicionadas usando o comando git add, agrupa essas mudanças em um conjunto e as identifica com um código único chamado Hashcode. Além disso, em cada commit, é necessário incluir uma mensagem descritiva que esclareça quais foram as alterações feitas nessa atualização. Isso torna mais fácil entender o propósito e o conteúdo de cada commit no histórico do projeto.
+Etapa crucial para registrar uma nova versão do projeto, composta por um conjunto de alterações. Ele pega as modificações que foram adicionadas usando o comando git add, agrupa essas mudanças em um conjunto e as identifica com um código único chamado Hashcode. Além disso, em cada commit, é necessário incluir uma mensagem descritiva que esclareça quais foram as alterações feitas nessa atualização. Isso torna mais fácil entender o propósito e o conteúdo de cada commit no histórico do projeto.
 
 > git commit -m "Adicionando cards"
 
 ### Git branch
-cria novas branchs de desenvolvimento, bem como visualiza quais são os ramos existentes. 
+Cria novas branches de desenvolvimento, bem como visualiza quais são os ramos existentes. 
 
 > git branch
 
@@ -95,3 +95,31 @@ cria novas branchs de desenvolvimento, bem como visualiza quais são os ramos ex
 > git checkout: navegar entre as branchs do projeto. 
 
 > git checkout feature/cards
+
+### Git remote add "origin https://github.com/seu-usuario/meu-projeto.git
+É usado para adicionar um repositório remoto ao seu repositório local no Git. Você fornece um nome para o repositório remoto (geralmente "origin" por convenção) e a URL do repositório remoto. Isso permite que você envie e receba alterações entre seu repositório local e o repositório remoto.
+
+> git remote add origin (url do repositorio github)
+
+### Git fetch:
+É usado para baixar as atualizações de um repositório remoto para o seu repositório local no Git.
+
+> git fetch nome-do-repositorio
+
+### Git push:
+Enviar as alterações do seu repositório local para um repositório remoto no Git. Isso atualiza o repositório remoto com as mudanças que você fez localmente, permitindo que outros colaboradores acessem essas alterações e as incorporem ao projeto. Geralmente, você especifica a branch local que deseja enviar e a branch correspondente no repositório remoto.
+
+> git push origin nome-da-sua-branch-local
+
+### Git pull:
+Usado para atualizar o seu repositório local com as alterações do repositório remoto no Git. Ele combina automaticamente as alterações da branch remota para a branch local em que você está trabalhando, trazendo as últimas atualizações do projeto para o seu ambiente de desenvolvimento. Geralmente, é usado após um "git fetch" para trazer essas mudanças para o seu repositório local.
+
+> git pull origin main
+
+### Git merge:
+É usado para combinar as alterações de uma branch para outra no Git. Geralmente, você usa "git merge" para integrar as alterações de uma branch secundária (por exemplo, uma funcionalidade ou correção de bug) na branch principal (geralmente a "master" ou "main"). Isso cria um novo commit que representa a fusão das alterações, unindo as duas linhas de desenvolvimento.
+
+> git checkout main
+> git merge feature/nova-funcionalidade
+
+**Observação:** Mesclar uma branch secundária em uma branch principal
