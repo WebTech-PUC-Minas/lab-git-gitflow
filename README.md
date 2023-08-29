@@ -51,7 +51,7 @@ O uso de Git Branches apresenta várias vantagens, das quais queremos destacar d
 Permite o desenvolvimento de novos recursos para nossa aplicação sem interromper o progresso no branch principal.
 Com Git Branches, é possível criar diferentes ramificações de desenvolvimento que podem posteriormente ser incorporadas ao mesmo repositório, como um branch estável, um de teste e um instável, por exemplo.
 
-![branch-feature](./img/image.png)
+![branch-feature](./img/img-externo.png)
 
 ## Commits
 Representa uma unidade de alterações feitas em um conjunto de arquivos em um repositório de código-fonte. Quando você faz um commit, está registrando uma captura instantânea (snapshot) do estado atual dos arquivos que deseja acompanhar no repositório.
