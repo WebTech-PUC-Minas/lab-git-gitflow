@@ -20,8 +20,17 @@ Gitflow é um modelo de fluxo de trabalho que busca simplificar e organizar o ve
 
 
 ## Criando um Repositorio
+Após fazer login, você será direcionado para a página inicial do GitHub. No canto superior esquerdo da página inicial, clique no botão "New" e preencher os dados do seu repositório.
 
+> Nome do repositório: Certifique-se de escolher um nome descritivo e único, pois o GitHub não permite nomes duplicados.
 
+> Descrição (opcional): Adicione uma descrição breve para o seu repositório.
+
+> Visibilidade: Escolha entre "Público" (acessível a todos) ou "Privado" (acessível apenas a pessoas autorizadas).
+
+> Inclua um arquivo README.md
+
+Clique no botão "Criar repositório" quando estiver satisfeito com as configurações.
 
 ## Clonando um Repositório
 
