@@ -30,7 +30,7 @@ colocar vídeo explicativos
 
 2. Clique na opção **Downloads** e escolha seu sistema operacional _(Nesse caso, será Windows)_:
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Aba de Downloads do Site Git</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Aba de Downloads do Site Git</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Escolhendo o tipo de Sistema (32-bits ou 64-bits)</p></figcaption></figure>
 
@@ -86,11 +86,11 @@ O GitHub é uma plataforma de hospedagem de código-fonte baseada na web, que ut
 
 1. Acesse o site do **GitHub** _(_[_https://github.com_](https://github.com)_)_ e clique em _sign up:_
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Site do GitHub</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Site do GitHub</p></figcaption></figure>
 
 2. Coloque suas informações pessoais _(nome, email, senha, nickname)_ para criar a conta:
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exemplo de criação de conta</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Exemplo de criação de conta</p></figcaption></figure>
 
 3. Após essa etapa, o GitHub pedirá uma **autenticação** que é, geralmente, enviada ao email escolhido.
 
@@ -110,29 +110,31 @@ Tokens são senhas geradas pelo próprio GitHub, elas são métodos mais seguras
 
 1. Vá em configurações, clicando na foto do seu perfil no canto superior direito da tela:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 2. Agora vá em _Developer settings:_
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 3. Vá em _Personal access tokens / Token (classic):_
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 4. Selecione _generate new token (classic):_
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 5. Configure seu token e pronto!
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-#### <mark style="color:red;">Chaves de implementação</mark>
+#### <mark style="color:red;">Chaves de implementação:</mark>
 
-## Criando um Repositorio
+São chaves especiais que permitem acessos a lugares específicos no GitHub (cofre digital). Além disso, você não precisará utilizar usuário, senha ou token para fazer login com esse método. Por exemplo, não é muito seguro deixar uma pessoa que é responsável pelo design (CSS) de uma página web na colaboração de um Beck End. Observação: As chaves de implementação permitem somente LEITURA do código, isso ocorre para garantir maior segurança ao projeto.
 
-Após fazer login, você será direcionado para a página inicial do GitHub. No canto superior esquerdo da página inicial, clique no botão "New" e preencher os dados do seu repositório.
+## <mark style="color:yellow;">Criando um Repositório</mark>
+
+Após fazer login, você será direcionado para a página inicial do GitHub. No canto superior esquerdo da página inicial, clique no botão "New" e preencha os dados do seu repositório.
 
 > Nome do repositório: Certifique-se de escolher um nome descritivo e único, pois o GitHub não permite nomes duplicados.
 
@@ -144,7 +146,9 @@ Após fazer login, você será direcionado para a página inicial do GitHub. No 
 
 Clique no botão "Criar repositório" quando estiver satisfeito com as configurações.
 
-## Clonando um Repositório
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:orange;">Clonando um Repositório</mark>
 
 O comando git clone é usado para criar uma cópia local de um repositório Git existente.
 
@@ -152,17 +156,48 @@ Encontrar o Repositório: Primeiro, você precisa identificar o URL do repositó
 
 Executar o Comando Clone: O comando git clone é usado para criar uma cópia local do repositório remoto. A sintaxe básica é a seguinte:
 
-> git clone \<URL\_do\_repositório>
+
+
+```
+# Iniciar um novo repositório
+git init
+
+# OU
+
+# Clonar um repositório existente
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Por exemplo, para clonar um repositório chamado "meu-projeto" do GitHub, você usaria:
 
-> git clone https://github.com/seu-usuario/meu-projeto.git
+```
+git clone https://github.com/seu-usuario/meu-projeto.git
+```
 
-**Criação da Cópia Local**: O Git irá baixar todos os arquivos e histórico de commits do repositório remoto e criar uma cópia completa na sua máquina local. Agora, você tem todos os arquivos do projeto em seu ambiente.
+<mark style="color:red;">**Adicionar arquivos ao repositório:**</mark>
 
-**Contribuição no Desenvolvimento**: Com o repositório clonado, você pode fazer modificações nos arquivos, criar novos arquivos e adicionar funcionalidades. Quando você faz essas alterações, o Git monitora as diferenças entre a cópia local e o estado anterior. Use os comandos git add, git commit e git push para adicionar, confirmar e enviar suas alterações de volta para o repositório remoto.
+Adicione os arquivos que você deseja enviar para o repositório:
 
-**Testes Locais**: Além de contribuir para o desenvolvimento, você também pode usar a cópia local do repositório para realizar testes em um ambiente controlado. Isso é útil para verificar como suas mudanças afetam o projeto antes de compartil
+```
+# Adicionar todos os arquivos no diretório
+git add .
+
+# OU
+
+# Adicionar um arquivo específico
+git add nome-do-arquivo
+
+```
+
+<mark style="color:red;">**Commitar as mudanças:**</mark>
+
+Comite as mudanças adicionadas, fornecendo uma mensagem descritiva:
+
+**Testes Locais**:&#x20;
+
+Além de contribuir para o desenvolvimento, você também pode usar a cópia local do repositório para realizar testes em um ambiente controlado. Isso é útil para verificar como suas mudanças afetam o projeto antes de compartilhá-las.
 
 ## Branchs
 
