@@ -12,6 +12,16 @@ O Git é um sistema de controle de versão distribuído amplamente usado na áre
 
 Gitflow é um modelo de fluxo de trabalho que busca simplificar e organizar o versionamento de ramificações de um projeto de desenvolvimento no Git.
 
+**Main:** é a ramificação principal que contém o código-fonte em produção. Não é permitido realizar alterações (commit) diretamente nessa ramificação. A Master ainda é utilizada para enviar os commits dos releases para a produção;
+
+**Develop:** criada a partir da ramificação Main, ela reúne os códigos de todos os ramos e se comunica com a Main. Ela contém o código-fonte mais atual e todas as novas features estáveis que serão mescladas posteriormente;
+
+**Feature:** criada a partir da ramificação Develop, é uma branch temporária que carrega uma nova funcionalidade para o projeto, ela sempre acabará sendo mesclada à própria Develop através de merge. E segue um padrão de nomenclatura “feature/new-feature”.
+
+**Release:** é uma ramificação temporária que fará com que os novos recursos armazenados na Develop sejam mesclados na branch Master, recebendo uma tag que indica a nova versão do projeto.
+
+**Hotfix**: é uma ramificação utilizada para mesclar correções na ramificação principal decorrente de bugs identificados no processo de desenvolvimento. Após a correção do bug, o código irá tanto para a branch main como para a Develop. Essa branch também recebe uma tag indicando a nova versão na Main.
+
 ***
 
 ## <mark style="color:yellow;">Instalando a ferramenta:</mark> ⚙️
