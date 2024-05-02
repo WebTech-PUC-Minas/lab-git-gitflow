@@ -24,19 +24,19 @@ colocar vídeo explicativos
 
 ### <mark style="color:orange;">Instalando a ferramenta no sistema Windows 10 e 11:</mark>
 
-1\. Em primeiro lugar, você deve entrar no site do **Git **_**(**_[_**https://git-scm.com**_](https://git-scm.com)_**) e**_** você encontrará uma tela assim:**
+1\. Em primeiro lugar, você deve entrar no site do **Git** _(_[_https://git-scm.com_](https://git-scm.com)_) **e**_** você encontrará uma tela assim:**
 
 <figure><img src=".gitbook/assets/imagem_2024-05-02_152911176.png" alt=""><figcaption><p>Site da ferramenta Git</p></figcaption></figure>
 
 2. Clique na opção **Downloads** e escolha seu sistema operacional _(Nesse caso, será Windows)_:
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Aba de Downloads do Site Git</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Aba de Downloads do Site Git</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Escolhendo o tipo de Sistema (32-bits ou 64-bits)</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Escolhendo o tipo de Sistema (32-bits ou 64-bits)</p></figcaption></figure>
 
 4. Após executar o arquivo de instalação, clique em _install_ e apenas prossiga as abas com a opção _next,_ pois o Git será instalado nos caminhos padrão da ferramenta.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Instalador da Ferramenta Git</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Instalador da Ferramenta Git</p></figcaption></figure>
 
 Pronto! Você conseguiu instalar a ferramenta Git com sucesso na sua máquina com sistema operacional Windows! 😀
 
@@ -52,7 +52,7 @@ Nesse código estamos configurando o nome de usuário da máquina, ou seja, colo
 
 Obs: Se não retornar nada, ou seja, uma linha vazia, será um sinal que está tudo correto!
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Configurando o nome de usuário</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Configurando o nome de usuário</p></figcaption></figure>
 
 2. Agora, digite o código abaixo para configurar o **email** _(sem o $):_
 
@@ -62,7 +62,7 @@ Obs: Se não retornar nada, ou seja, uma linha vazia, será um sinal que está t
 $ git config --global user.email "email"
 ```
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Configurando o email</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Configurando o email</p></figcaption></figure>
 
 3. Prontinho! Agora, para verificar se a configuração está correta, basta digitar o código abaixo _(sem o $):_
 
@@ -70,7 +70,7 @@ $ git config --global user.email "email"
 $ git config --list
 ```
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 A opção _user.name_ está com meu nome e a _user.email_ está com meu email! Assim, você concluiu a configuração inicial da ferramenta Git no sistema Windows! 😝
 
@@ -82,9 +82,53 @@ A opção _user.name_ está com meu nome e a _user.email_ está com meu email! A
 
 O GitHub é uma plataforma de hospedagem de código-fonte baseada na web, que utiliza o sistema de controle de versão Git. Ele permite que desenvolvedores colaborem em projetos, acompanhem mudanças feitas no código, gerenciem versões e trabalhem em equipe de forma eficiente. Ele é amplamente utilizado pela comunidade para gerenciar projetos, colaborar em código, e compartilhar conhecimento, tornando-se uma parte essencial do ecossistema moderno de desenvolvimento de software.
 
-### <mark style="color:orange;">Criando a conta do GitHub:</mark>
+### <mark style="color:orange;">Criando a conta do GitHub:</mark> 😎
 
+1. Acesse o site do **GitHub** _(_[_https://github.com_](https://github.com)_)_ e clique em _sign up:_
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Site do GitHub</p></figcaption></figure>
+
+2. Coloque suas informações pessoais _(nome, email, senha, nickname)_ para criar a conta:
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Exemplo de criação de conta</p></figcaption></figure>
+
+3. Após essa etapa, o GitHub pedirá uma **autenticação** que é, geralmente, enviada ao email escolhido.
+
+### <mark style="color:orange;">Autenticações:</mark> 👮
+
+Uma parte importante do trabalho é manter sua **conta segura**, então o GitHub fornece métodos de segurança para protegê-la:
+
+#### <mark style="color:red;">Usuário e senha:</mark>
+
+O método de "usuário e senha" consiste em, quando o colaborador do projeto for realizar alguma modificação ou entrar em sua conta, o sistema pedirá só o usuário e a senha. Esse é a maneira menos segura para verificar a autenticidade.
+
+#### <mark style="color:red;">Tokens:</mark>
+
+Tokens são senhas geradas pelo próprio GitHub, elas são métodos mais seguras que as senhas normais, pois são geradas aleatoriamente e com grande número de de caracteres. Além disso, você pode configurar os acessos dessa senha e o tempo de existência, semelhante à um cartão de acesso.
+
+**Criando um Token pessoal:**
+
+1. Vá em configurações, clicando na foto do seu perfil no canto superior direito da tela:
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+2. Agora vá em _Developer settings:_
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+3. Vá em _Personal access tokens / Token (classic):_
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+4. Selecione _generate new token (classic):_
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+5. Configure seu token e pronto!
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="color:red;">Chaves de implementação</mark>
 
 ## Criando um Repositorio
 
