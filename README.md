@@ -1,8 +1,10 @@
-# Laboratório Git e GitFlow
+# 😄 Laboratório Git e GitFlow
 
-## <mark style="color:yellow;">Em primeiro lugar, entenda alguns conceitos importantes</mark>
+## <mark style="color:yellow;">Em primeiro lugar, entenda alguns conceitos importantes:</mark>
 
 ### <mark style="color:orange;">O que é o Git?</mark> 🤔
+
+## A ferramenta Git
 
 O Git é um sistema de controle de versão distribuído amplamente usado na área de desenvolvimento de software. Ele permite que você rastreie e gerencie alterações em arquivos, crie ramificações para desenvolver recursos independentes e mescle essas mudanças de forma eficiente. É uma ferramenta fundamental para o desenvolvimento colaborativo, ajudando a manter o código organizado e permitindo o trabalho em equipe de maneira eficaz.
 
@@ -72,7 +74,17 @@ $ git config --list
 
 A opção _user.name_ está com meu nome e a _user.email_ está com meu email! Assim, você concluiu a configuração inicial da ferramenta Git no sistema Windows! 😝
 
-Instalando
+***
+
+## <mark style="color:yellow;">GitHub:</mark>
+
+### <mark style="color:orange;">O que é o GitHub?</mark>🧐
+
+O GitHub é uma plataforma de hospedagem de código-fonte baseada na web, que utiliza o sistema de controle de versão Git. Ele permite que desenvolvedores colaborem em projetos, acompanhem mudanças feitas no código, gerenciem versões e trabalhem em equipe de forma eficiente. Ele é amplamente utilizado pela comunidade para gerenciar projetos, colaborar em código, e compartilhar conhecimento, tornando-se uma parte essencial do ecossistema moderno de desenvolvimento de software.
+
+### <mark style="color:orange;">Criando a conta do GitHub:</mark>
+
+
 
 ## Criando um Repositorio
 

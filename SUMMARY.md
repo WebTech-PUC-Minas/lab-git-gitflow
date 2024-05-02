@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Laboratório Git e GitFlow](README.md)
+* [😄 Laboratório Git e GitFlow](README.md)
