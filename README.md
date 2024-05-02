@@ -40,7 +40,39 @@ Pronto! Você conseguiu instalar a ferramenta Git com sucesso na sua máquina co
 
 ### <mark style="color:orange;">Configurando a ferramenta (Windows 10 e 11):</mark>
 
+1. Abra o aplicativo **Git Bash** e digite o seguinte código _(sem o $):_
 
+```
+$ git config --global user.name "Nome_usuário"
+```
+
+Nesse código estamos configurando o nome de usuário da máquina, ou seja, coloque de preferência o seu nome ou o _nickname_ da sua conta do GitHub _(ela será criada em breve, mas já pense no nome)._
+
+Obs: Se não retornar nada, ou seja, uma linha vazia, será um sinal que está tudo correto!
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Configurando o nome de usuário</p></figcaption></figure>
+
+2. Agora, digite o código abaixo para configurar o **email** _(sem o $):_
+
+
+
+```
+$ git config --global user.email "email"
+```
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Configurando o email</p></figcaption></figure>
+
+3. Prontinho! Agora, para verificar se a configuração está correta, basta digitar o código abaixo _(sem o $):_
+
+```
+$ git config --list
+```
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+A opção _user.name_ está com meu nome e a _user.email_ está com meu email! Assim, você concluiu a configuração inicial da ferramenta Git no sistema Windows! 😝
+
+Instalando
 
 ## Criando um Repositorio
 
