@@ -1,6 +1,6 @@
 # 😄 Laboratório Git e GitFlow
 
-## <mark style="color:yellow;">Em primeiro lugar, entenda alguns conceitos importantes:</mark>
+<mark style="color:yellow;">Em primeiro lugar, entenda alguns conceitos importantes:</mark>
 
 ### <mark style="color:orange;">O que é o Git?</mark> 🤔
 
@@ -357,6 +357,12 @@ Cria novas branches de desenvolvimento, bem como visualiza quais são os ramos e
 > git checkout: navegar entre as branchs do projeto.
 
 > git checkout feature/cards
+
+### <mark style="color:orange;">Git checkout:</mark>
+
+Altera para uma branch específica.
+
+> git checkout nome-da-branch
 
 ### <mark style="color:orange;">Git remote add "origin https://github.com/seu-usuario/meu-projeto.git</mark>
 
