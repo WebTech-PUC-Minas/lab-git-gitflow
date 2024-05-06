@@ -364,7 +364,7 @@ Altera para uma branch específica.
 
 > git checkout nome-da-branch
 
-### <mark style="color:orange;">Git remote add "origin https://github.com/seu-usuario/meu-projeto.git</mark>
+### <mark style="color:orange;">Git remote add origin "https://github.com/seu-usuario/meu-projeto.git"</mark>
 
 É usado para adicionar um repositório remoto ao seu repositório local no Git. Você fornece um nome para o repositório remoto (geralmente "origin" por convenção) e a URL do repositório remoto. Isso permite que você envie e receba alterações entre seu repositório local e o repositório remoto.
 
