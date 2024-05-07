@@ -28,9 +28,9 @@ Gitflow é um modelo de fluxo de trabalho que busca simplificar e organizar o ve
 
 ### <mark style="color:orange;">Vídeos explicativos:</mark> 🎥
 
-colocar vídeo explicativos
+Instalação Git (MacOs e Linux) -> [https://youtu.be/MoXJ4ypR\_ZE?si=rwTABq8eckUXjtdq](https://youtu.be/MoXJ4ypR\_ZE?si=rwTABq8eckUXjtdq)
 
-
+Configuração Git (Windows, MacOS e Linux) -> [https://youtu.be/aQjqmC5EfH0?si=oTkoBOUdzmWgO98b](https://youtu.be/aQjqmC5EfH0?si=oTkoBOUdzmWgO98b)
 
 ### <mark style="color:orange;">Instalando a ferramenta no sistema Windows 10 e 11:</mark>
 
