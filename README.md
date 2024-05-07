@@ -398,4 +398,10 @@ Usado para atualizar o seu repositório local com as alterações do repositóri
 
 
 
+***
+
+REFERÊNCIAS:\
+\
+Documentação oficial Git - [https://git-scm.com/docs](https://git-scm.com/docs)
+
 \
